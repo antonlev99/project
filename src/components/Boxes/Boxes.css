@@ -1,0 +1,95 @@
+.background {
+  background-color: grey;
+  opacity: 0.9;
+}
+
+.tc {
+  width: 250px;
+  height: 328px;
+}
+
+.firr {
+  display: inline-block;
+  float: center;
+  list-style-type: none;
+}
+
+.sr {
+  display: inline-block;
+  float: center;
+  list-style-type: none;
+}
+
+.tr {
+  display: inline-block;
+  float: center;
+  list-style-type: none;
+}
+
+.ftr {
+  display: inline-block;
+  float: center;
+  list-style-type: none;
+}
+
+.image {
+  width: 130px;
+  height: 140px;
+  border: 3px solid;
+  flex: center;
+}
+
+.name {
+  background: #40E0D0;
+  padding-top: 2px;
+  width: 220px;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.gender {
+  background: #40E0D0;
+  padding-top: 6px;
+  width: 220px;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.price {
+  background: #40E0D0;
+  padding-top: 6px;
+  width: 220px;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.pick {
+  border-bottom: 5px solid #000000;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.myButton {
+  box-shadow: 0px 0px 0px 0px #1c1b18;
+  background: #40E0D0;
+  border: 5px black;
+  border-radius:21px;
+  display:inline-block;
+  cursor:pointer;
+  color: black;
+  font-family: Georgia;
+  font-size:14px;
+  font-weight:bold;
+  padding:12px 16px;
+  text-decoration:none;
+}
+.myButton:hover {
+  background: white;
+}
+
+ul {
+  height: 300px;
+  width: 200px;
+}

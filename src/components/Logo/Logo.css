@@ -1,0 +1,19 @@
+.Tilt {
+	background: linear-gradient(89deg, #0000FF 0%, #40E0D0 100%);
+}
+
+h1 {
+	display: inline;
+	position: relative;
+	font: Helvetica, Sans-Serif;
+	letter-spacing: 8px;
+	color: blue; 
+  	border: 4px solid black;
+  	background: linear-gradient(89deg, #0000FF 0%, #40E0D0 100%)
+}
+
+h1:after {
+	content: "PetWorld";
+	position: absolute; left: 0px; top: 2px;
+	color: black;   
+}
