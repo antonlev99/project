@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Navigation = ({onRouteChange, isSignedIn}) => {
 		if (isSignedIn) {
 			return(
@@ -11,7 +10,7 @@ const Navigation = ({onRouteChange, isSignedIn}) => {
 					<p className='f3 link dim black underline pa3 pointer'>
 				    	<a href="https://docs.google.com/document/d/1x4WOwgXA-WExopWsNMkodsdN6mnEGP8YfKF6xPXqqI4/edit?usp=sharing" className='black' target="_blank" rel="noopener noreferrer">Terms And Conditions</a>
 				    </p>
-					<p onClick={() => onRouteChange('SignOut')} className='f3 link dim black underline pa3 pointer'>Sign out</p>
+					<p onClick={() => onRouteChange('SignOut')} className='navigation f3 link dim black underline pa3 pointer'>Sign out</p>
 				</nav>
 			);
 		} else {
