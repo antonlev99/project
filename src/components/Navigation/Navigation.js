@@ -5,7 +5,7 @@ const Navigation = ({onRouteChange, isSignedIn}) => {
 			return(
 				<nav style={{display: 'flex', justifyContent:'flex-end', background: 'grey', opacity: '0.7', height: '90px'}}>
 				    <p className='f3 link dim black underline pa3 pointer'>
-				    	<a href="https://www.youtube.com/watch?v=NmbBMVEzaMg" className='black' target="_blank" rel="noopener noreferrer">About</a>
+				    	<a href="https://youtu.be/iUu2iUKIURQ" className='black' target="_blank" rel="noopener noreferrer">About</a>
 				    </p>
 					<p className='f3 link dim black underline pa3 pointer'>
 				    	<a href="https://docs.google.com/document/d/1x4WOwgXA-WExopWsNMkodsdN6mnEGP8YfKF6xPXqqI4/edit?usp=sharing" className='black' target="_blank" rel="noopener noreferrer">Terms And Conditions</a>
